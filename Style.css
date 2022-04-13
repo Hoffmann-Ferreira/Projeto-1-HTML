@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/Projeto-1-HTML/assets/Fundo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+#cabecalho{
+    border: solid cornsilk;
+    text-align: center;
+    margin-top: 8%;
+}
+#cabecalho img{
+    border-radius: 50%;
+    width: 24%;
+}
+#conteudo{
+    background: linear-gradient(to right, rgba(241, 236, 236, 0), rgb(126, 116, 0));
+    height: 500px;
+}
+
