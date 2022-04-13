@@ -1,6 +1,10 @@
-body {
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+}
+body {
+    margin-left: 20em;
+    margin-right: 20em;
     background-image: url(/Projeto-1-HTML/assets/Fundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -16,7 +20,7 @@ body {
     width: 24%;
 }
 #conteudo{
-    background: linear-gradient(to right, rgba(241, 236, 236, 0), rgb(126, 116, 0));
+    background: linear-gradient(to right, rgba(241, 236, 236, 0), rgb(245, 245, 244));
     height: 500px;
 }
 
