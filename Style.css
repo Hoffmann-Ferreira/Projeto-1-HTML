@@ -3,9 +3,11 @@
     padding: 0;
 }
 body {
+    height: 100vh;
+    /*width: 100%; */
     margin-left: 20em;
     margin-right: 20em;
-    background-image: url(/Projeto-1-HTML/assets/Fundo.jpg);
+    background-image: url(/Projeto-1-HTML/assets/fundo.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     
@@ -13,14 +15,10 @@ body {
 #cabecalho{
     border: solid cornsilk;
     text-align: center;
-    margin-top: 8%;
-}
-#cabecalho img{
-    border-radius: 50%;
-    width: 24%;
+    width: 100%;
+    background-color: azure; 
 }
 #conteudo{
-    background: linear-gradient(to right, rgba(241, 236, 236, 0), rgb(245, 245, 244));
-    height: 500px;
+    background-color: azure;
+    width: 100%;
 }
-
