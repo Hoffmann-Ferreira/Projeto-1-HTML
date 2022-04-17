@@ -1,17 +1,21 @@
-// const botao = document.querySelector("#botao");
-// let contador = 0;
+const botao = document.querySelector("#botao");
+let contador = 0;
 
-// function modificaFotosTexto(){
-//   let imagens = ['pichu.png', 'pikachu.jpg', 'raichu.jpg'];
+function modificaFotosTexto(){
+  const imagens = ['anakin1.png', 'anakin21.png', 'anakin3.png', 'vader.png', 'old.png'];
+  const textos = ['Escravo', 'Joven Jedi', 'Lord Vader', 'Darth Vader', 'Espirito da Força'];
 
-//   let texto = document.querySelector(".teste");
-//   texto.innerHTML = `<h1> Testando ${contador}</h1>    
-//   <img src="/Projeto-1-HTML/assets/${imagens[contador]}">`;
-//   contador++;
-//   if(contador == imagens.length){
-//     contador = 0;
-//   }
+  let fotosTexto = document.querySelector(".personagem");
+
+  fotosTexto.innerHTML = `<h1>${textos[contador]}</h1>    
+  <img src="/Projeto-1-HTML/assets/${imagens[contador]}">`;
+
+  contador++;
+
+  if(contador == imagens.length){
+    contador = 0;
+  };
   
-// };
+};
 
-// botao.addEventListener("click", modificaFotosTexto);
+botao.addEventListener("click", modificaFotosTexto);
