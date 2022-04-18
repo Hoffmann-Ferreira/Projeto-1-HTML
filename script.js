@@ -11,7 +11,7 @@ function modificaFotosTexto(){
   <img src="/Projeto-1-HTML/assets/${imagens[contador]}">`;
 
   contador++;
-
+  
   if(contador == imagens.length){
     contador = 0;
   };
