@@ -3,23 +3,71 @@
     padding: 0;
 }
 body {
-    height: 100%;
-    width: 100%;
-    /* margin-left: 20em;
-    margin-right: 20em; */
-    background-image: url(/Projeto-1-HTML/assets/fundo.jpg);
-    background-size: 100%;
+    width: 99vw;
+    height: 100vh;
+    /* width: 1368px;
+    width: calc(100% * 1366px); */
+    /* height:768px; */
+    /* height: calc(100% *768px); */
+    min-width: calc(360px);
+    min-height: calc(640px);
+    background-image: url(/Projeto-1-HTML/assets/fundo2.jpg);
+    /* background-size: 100%; */
+    background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Bowlby One', cursive;
+    display: flex;
+    flex-wrap: wrap;
+
     
+};
+main{
+    width: 100vw;
+    height: 100vh;
+
+}
+header{
+    width: 100vw;
 }
 #cabecalho{
-    border: solid cornsilk;
+    word-break: break-all;
+    width: 59%;
+    padding: 1%;
     text-align: center;
-    width: 100%;
-    background-color: azure; 
+    margin-left: 3em;
+    background-color: rgb(243, 240, 240, 0.2);
+    margin-bottom: 1%;
+    margin-top: 1%;
 }
 #conteudo{
-    /* background-color: azure; */
-    width: 100%;
-    height: 75%;
+    width: 60%;
+    height: 70vh;
+    /* background-color: rgb(243, 240, 240, 0.1); */
+    margin-left: 3em;
+    text-align: center;
+    padding-top: 1%;
+    
 }
+#conteudo .personagem{
+    background-color: rgb(243, 240, 240, 0.1);
+}
+#conteudo .personagem img {
+    width: 50%;
+    height: 50vh;
+}
+#botao {
+    width: 15%;
+    height: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+    #botao {
+        width: 20%;
+        height: 20%;
+    }
+  }
+
+
+
+
+

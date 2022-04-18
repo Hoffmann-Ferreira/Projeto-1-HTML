@@ -3,7 +3,7 @@ let contador = 0;
 
 function modificaFotosTexto(){
   const imagens = ['anakin1.png', 'anakin21.png', 'anakin3.png', 'vader.png', 'old.png'];
-  const textos = ['Escravo', 'Joven Jedi', 'Lord Vader', 'Darth Vader', 'Espirito da Força'];
+  const textos = ['ESCRAVO', 'JOVEM JEDI', 'LORD VADER', 'DARTH VADER', 'ESPÍRITO DA FORÇA'];
 
   let fotosTexto = document.querySelector(".personagem");
 
