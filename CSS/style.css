@@ -7,7 +7,7 @@ body {
     height: 100vh;
     min-width: 30vw;
     min-height: 20vh;
-    background-image: url(../fundo2.jpg);
+    background-image: url(/Projeto-1-HTML/assets/fundo2.jpg);
     background-color: black;
     background-size: cover;
     background-repeat: no-repeat;
