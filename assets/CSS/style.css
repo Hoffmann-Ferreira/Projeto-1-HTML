@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 98vw;
+    height: 100vh;
+    min-width: 30vw;
+    min-height: 20vh;
+    background-image: url(../fundo2.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-family: 'Bowlby One', cursive;
+    -webkit-text-stroke-width: 1.0px;
+    -webkit-text-stroke-color: #FFFF00;
+    
+};
+main{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100vw;
+}
+#cabecalho{
+    word-break: break-all;
+    width: 59%;
+    padding: 1%;
+    text-align: center;
+    margin-left: 3em;
+    margin-top: 1%;
+    border-radius: 30%;
+}
+#conteudo{
+    width: 60%;
+    height: 60vh;
+    margin-left: 3em;
+    text-align: center;
+    padding-top: 1%;
+    
+}
+#conteudo .personagem{
+    background-color: rgb(243, 240, 240, 0.1);
+    border-radius: 15%;
+}
+#conteudo .personagem img {
+    width: 40vw;
+    height: 50vh;
+    overflow: hidden;
+    min-width: 340px;
+    min-height: 340px;
+}
+#botao , #reload {
+    width: 15%;
+    height: 15%;
+}
+#logo{
+    width: 95vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#logo img{
+    width: 10%;
+}
+
+@media only screen and (max-width: 600px) {
+    #botao {
+        width: 20%;
+        height: 20%;
+    }
+}
+footer{
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+
+
+
+
